@@ -3,7 +3,7 @@
 import time
 from web3 import Web3, HTTPProvider
 
-from src import contract_abi
+from src.ContractPerformanceTest import contract_abi
 
 contract_address = '0x3D30b722948215D36b17FAD416ad33d2D53735E4'
 wallet_private_key = 'd355ce1b91b16a0fc6953cc20ec75e19060487a1a157679819d68595bc1e7ca3'
